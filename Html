@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelly Demo Wallet</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1020;
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    .card {
+      background: #151d35;
+      border-radius: 20px;
+      padding: 30px 20px;
+      margin-top: 40px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.3);
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    .balance {
+      font-size: 38px;
+      font-weight: bold;
+      margin: 25px 0;
+    }
+
+    button {
+      width: 100%;
+      padding: 15px;
+      margin-top: 12px;
+      border: 0;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .send {
+      background: #2563eb;
+      color: white;
+    }
+
+    .receive {
+      background: #22c55e;
+      color: white;
+    }
+
+    .note {
+      margin-top: 25px;
+      font-size: 13px;
+      color: #aab3c5;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="card">
+
+      <h1>💳 Kelly Demo Wallet</h1>
+
+      <p>Welcome to your demo wallet</p>
+
+      <div class="balance">₦100,000.00</div>
+
+      <button class="send" onclick="alert('Demo only — no real money is sent.')">
+        Send Money
+      </button>
+
+      <button class="receive" onclick="alert('Demo only — no real money is received.')">
+        Receive Money
+      </button>
+
+      <div class="note">
+        DEMO WALLET — No real money or payments are processed.
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
